@@ -1,0 +1,90 @@
+\begin{thebibliography}{10}
+
+\bibitem{rifaioglu2018recent}
+A.~S. Rifaioglu, H.~Atas, M.~J. Martin, R.~Cetin-Atalay, V.~Atalay, and
+  T.~Dogan, ``Recent applications of deep learning and machine intelligence on
+  in silico drug discovery: methods, tools and databases,'' {\em Brief.
+  Bioinform}, vol.~10, 2018.
+
+\bibitem{gaulton2011chembl}
+A.~Gaulton, L.~J. Bellis, A.~P. Bento, J.~Chambers, M.~Davies, A.~Hersey,
+  Y.~Light, S.~McGlinchey, D.~Michalovich, B.~Al-Lazikani, {\em et~al.},
+  ``Chembl: a large-scale bioactivity database for drug discovery,'' {\em
+  Nucleic acids research}, vol.~40, no.~D1, pp.~D1100--D1107, 2011.
+
+\bibitem{bento2014chembl}
+A.~P. Bento, A.~Gaulton, A.~Hersey, L.~J. Bellis, J.~Chambers, M.~Davies, F.~A.
+  Kr{\"u}ger, Y.~Light, L.~Mak, S.~McGlinchey, {\em et~al.}, ``The chembl
+  bioactivity database: an update,'' {\em Nucleic acids research}, vol.~42,
+  no.~D1, pp.~D1083--D1090, 2014.
+
+\bibitem{cobanoglu2013predicting}
+M.~C. Cobanoglu, C.~Liu, F.~Hu, Z.~N. Oltvai, and I.~Bahar, ``Predicting
+  drug--target interactions using probabilistic matrix factorization,'' {\em
+  Journal of chemical information and modeling}, vol.~53, no.~12,
+  pp.~3399--3409, 2013.
+
+\bibitem{sarwar2001item}
+B.~M. Sarwar, G.~Karypis, J.~A. Konstan, J.~Riedl, {\em et~al.}, ``Item-based
+  collaborative filtering recommendation algorithms.,'' {\em Www}, vol.~1,
+  pp.~285--295, 2001.
+
+\bibitem{lecun2015deep}
+Y.~LeCun, Y.~Bengio, and G.~Hinton, ``Deep learning,'' {\em nature}, vol.~521,
+  no.~7553, p.~436, 2015.
+
+\bibitem{lenselink2017beyond}
+E.~B. Lenselink, N.~Ten~Dijke, B.~Bongers, G.~Papadatos, H.~W. Van~Vlijmen,
+  W.~Kowalczyk, A.~P. IJzerman, and G.~J. Van~Westen, ``Beyond the hype: deep
+  neural networks outperform established methods using a chembl bioactivity
+  benchmark set,'' {\em Journal of cheminformatics}, vol.~9, no.~1, p.~45,
+  2017.
+
+\bibitem{colwell2018statistical}
+L.~J. Colwell, ``Statistical and machine learning approaches to predicting
+  protein--ligand interactions,'' {\em Current opinion in structural biology},
+  vol.~49, pp.~123--128, 2018.
+
+\bibitem{ramsundar2015massively}
+B.~Ramsundar, S.~Kearnes, P.~Riley, D.~Webster, D.~Konerding, and V.~Pande,
+  ``Massively multitask networks for drug discovery,'' {\em arXiv preprint
+  arXiv:1502.02072}, 2015.
+
+\bibitem{whitehead2019imputation}
+T.~Whitehead, B.~Irwin, P.~Hunt, M.~Segall, and G.~Conduit, ``Imputation of
+  assay bioactivity data using deep learning,'' {\em Journal of chemical
+  information and modeling}, vol.~59, no.~3, pp.~1197--1204, 2019.
+
+\bibitem{davies2015chembl}
+M.~Davies, M.~Nowotka, G.~Papadatos, N.~Dedman, A.~Gaulton, F.~Atkinson,
+  L.~Bellis, and J.~P. Overington, ``Chembl web services: streamlining access
+  to drug discovery data and utilities,'' {\em Nucleic acids research},
+  vol.~43, no.~W1, pp.~W612--W620, 2015.
+
+\bibitem{martin2017profile}
+E.~J. Martin, V.~R. Polyakov, L.~Tian, and R.~C. Perez, ``Profile-qsar 2.0:
+  Kinase virtual screening accuracy comparable to four-concentration ic50s for
+  realistically novel compounds,'' {\em Journal of chemical information and
+  modeling}, vol.~57, no.~8, pp.~2077--2088, 2017.
+
+\bibitem{tibshirani1996regression}
+R.~Tibshirani, ``Regression shrinkage and selection via the lasso,'' {\em
+  Journal of the Royal Statistical Society: Series B (Methodological)},
+  vol.~58, no.~1, pp.~267--288, 1996.
+
+\bibitem{scikit-learn}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg, J.~Vanderplas, A.~Passos,
+  D.~Cournapeau, M.~Brucher, M.~Perrot, and E.~Duchesnay, ``Scikit-learn:
+  Machine learning in {P}ython,'' {\em Journal of Machine Learning Research},
+  vol.~12, pp.~2825--2830, 2011.
+
+\bibitem{chollet2015keras}
+F.~Chollet {\em et~al.}, ``Keras.'' \url{https://keras.io}, 2015.
+
+\bibitem{gal2016dropout}
+Y.~Gal and Z.~Ghahramani, ``Dropout as a bayesian approximation: Representing
+  model uncertainty in deep learning,'' in {\em international conference on
+  machine learning}, pp.~1050--1059, 2016.
+
+\end{thebibliography}

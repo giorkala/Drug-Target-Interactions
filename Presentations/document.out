@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Related Work}{}% 2
+\BOOKMARK [1][-]{section.3}{Data and Methods}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{The dataset}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Features}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Single Task Learning as a baseline}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Multi Task Learning for a generalisation}{section.3}% 7
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Drop-out}{subsection.3.4}% 8
+\BOOKMARK [1][-]{section.4}{Experimental Evaluation}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Methodology}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Results on Single Task Learning}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{Results on Multi Task Learning}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.4}{Self-training for an improvement}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.5}{Final evaluation}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Future work}{section.5}% 16
