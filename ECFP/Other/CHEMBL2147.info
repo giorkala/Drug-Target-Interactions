@@ -1,0 +1,6 @@
+
+23167 fingerprints were loaded.
+Number of loaded interactions = 1413
+Selecting parameters with CV
+Training score after 1413 points = 0.8976 
+R2-score after 357 points = 0.6550 
