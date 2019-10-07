@@ -3,15 +3,17 @@ Applying Deep Learning and Multi-Task Learning to predict biological target prof
 
 **Data :** The files _Interactions_Trainset.tab_, _Interactions_Validset.tab_ and _Interactions_Testset.tab_ contain the interactions used for training, validating and testing respectively. The test-set was formed as a roughly balanced selection between active and inactive compounds. More about the data can be found in my [report](https://github.com/giorkala/Drug-Target-Interactions/blob/master/Presentations/document.pdf). All these files contain triplets as _target-ID, compound-ID, pIC50_, one line per interaction, and have occured after processing _interactions_kinases_all.tab_ which contains all the interactions fetched for 797 kinases. 
 
-  1. **Project_CrossVal_SingleTL :** This jupyter notebook compares four single-task methods -- RF, Lasso regression and two NN approaches -- for regressing bioactivity data, with one model per target. RF, LR and the first NN are deployed from Scikit-learn and the second NN is implemented with Keras.
+Most of the computational experiments conducted for this project are implemented in the following **Python** notebooks:
 
-  2. **Project_MTL :** This is similar to the previous notebook but from a multi-task perspective, where we train one model for all the 110 targets. Parameters are selected with grid-search after spliting the train set to 75-25%.
+  1. `Project_CrossVal_SingleTL` : This jupyter notebook compares four single-task methods -- RF, Lasso regression and two NN approaches -- for regressing bioactivity data, with one model per target. RF, LR and the first NN are deployed from Scikit-learn and the second NN is implemented with Keras.
 
-  3. **Project_MTL-Dropout :** This notebook expands the previous by exploring the use of dropout in a MTL NN. Dropout is useful as it can make the model probabilistic and thus offer the option to produce confidence levels for each prediction.
+  2. `Project_MTL` : This is similar to the previous notebook but from a multi-task perspective, where we train one model for all the 110 targets. Parameters are selected with grid-search after spliting the train set to 75-25%.
 
-  4. **Project_Self-training :** The application, and comparison, of two methods that are able to self-train for regression.
+  3. `Project_MTL-Dropout` : This notebook expands the previous by exploring the use of dropout in a MTL NN. Dropout is useful as it can make the model probabilistic and thus offer the option to produce confidence levels for each prediction.
 
-  5. **Project_Final_Test :** This is the notebook used for the final evaluation of our project. It compares RF with MTL on their ability to impute new values. 
+  4. `Project_Self-training` : The application, and comparison, of two methods that are able to self-train for regression.
+
+  5. `Project_Final_Test` : This is the notebook used for the final evaluation of our project. It compares RF with MTL on their ability to impute new values. 
 
 **Demos :** is a folder with html versions of some of the *.ipynb* for demonstrating the pipeline+results quickly. 
 
