@@ -7,9 +7,9 @@ Most of the computational experiments conducted for this project are implemented
 
   1. `Project_CrossVal_SingleTL` : This jupyter notebook compares four single-task methods -- RF, Lasso regression and two NN approaches -- for regressing bioactivity data, with one model per target. RF, LR and the first NN are deployed from Scikit-learn and the second NN (lebelled as `myNN`) is implemented with Keras.
 
-  2. `Project_MTL` : This is similar to the previous notebook but from a multi-task perspective, where we train one model for all the 110 targets. Parameters are selected with grid-search after spliting the train set to 75-25%.
+  2. `Project_MTL` : This is similar to the previous notebook but from a multi-task perspective, where we train one model for all the 110 targets. Parameter selection is conducted on the next notebook. We also explore the use of dropout in a MTL NN. Dropout is useful as it can make the model probabilistic and thus offer the option to produce confidence levels for each prediction.
 
-  3. `Project_MTL-Dropout` : This notebook expands the previous by exploring the use of dropout in a MTL NN. Dropout is useful as it can make the model probabilistic and thus offer the option to produce confidence levels for each prediction.
+  3. `Project_MTL_CrossVal` : The predecessor of the previous notebook which selects paramaters for MTL and MTL_D through a  grid-search after spliting the train set to 75-25%. 
 
   4. `Project_Self-training` : The application, and comparison, of two methods that are able to self-train for regression.
 
